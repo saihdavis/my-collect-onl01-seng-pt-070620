@@ -3,7 +3,7 @@ def my_collect(collection)
   empty_array = []
   
  while i < collection.size 
- empty_array << yield(collection[i.upcase])
+ empty_array << yield(collection[i]).upcase
  i += 1 
  
  
