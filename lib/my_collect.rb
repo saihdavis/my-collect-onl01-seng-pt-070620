@@ -1,14 +1,14 @@
-def my_collect(collection)
+def my_collect(language)
   i = 0 
   empty_array = []
   
  while i < collection.size 
- empty_array << yield(collection[i])
+ empty_array << yield(language[i])
  i += 1 
  
  
 end
-collection
+empty_array
 end
 
 
