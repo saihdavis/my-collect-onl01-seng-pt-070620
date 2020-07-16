@@ -5,6 +5,7 @@ def my_collect(collection)
  while i < collection.size 
  yield (collection[i])
  i += 1 
+ 
   
 end
 end
