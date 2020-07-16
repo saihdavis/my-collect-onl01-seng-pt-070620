@@ -10,6 +10,6 @@ def my_collect(collection)
 end
 
 end
-collection.upcase 
+#collection.upcase 
 
 
