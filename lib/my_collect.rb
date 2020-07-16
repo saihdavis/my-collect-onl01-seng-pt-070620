@@ -9,5 +9,5 @@ def my_collect(collection)
 end
 end
 
-collection.uppercase
+#collection.uppercase
 
