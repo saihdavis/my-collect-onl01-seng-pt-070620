@@ -3,7 +3,7 @@ def my_collect(collection)
   empty_array = []
   
  while i < collection.size 
- empty_array << yield(collection[language])
+ empty_array << yield(collection[i])
  i += 1 
  
  
