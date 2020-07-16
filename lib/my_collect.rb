@@ -1,9 +1,10 @@
 def my_collect(collection)
-  counter = 0 
+  i = 0 
   empty_array = []
   
  while empty_array < collection.size 
- yield 
+ yield (array[i])
+ i += 1 
   
 end
 end
