@@ -8,8 +8,8 @@ def my_collect(collection)
  
  
 end
-collection.upcase 
-end
 
+end
+collection.upcase 
 
 
