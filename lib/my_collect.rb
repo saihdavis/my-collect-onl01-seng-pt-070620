@@ -3,7 +3,7 @@ def my_collect(collection)
   empty_array = []
   
  while i < collection.size 
- yield (array[i])
+ yield (collection[i])
  i += 1 
   
 end
